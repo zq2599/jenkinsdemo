@@ -10,6 +10,6 @@ public class Hello {
 
     @RequestMapping("/")
     public String sayHello(){
-        return "Hello jenkins, " + new Date();
+        return "1. Hello jenkins, " + new Date();
     }
 }
